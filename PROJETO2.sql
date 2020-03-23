@@ -1,0 +1,49 @@
+/*projeto2
+-criar a modelagem conceitual para o projeto2 (Notepad++)
+-criar a modelagem logica para o projeto2 (brModelo)
+-criar a modelagem fisica para o projeto2 (MySQL)
+*/
+/*
+-modelagem conceitual no Notepad++
+*/
+criar a tabela cliente
+	criar os atributos: 
+		nome varchar 30
+		sexo char 1
+		cidade varchar 30
+				
+/*
+-modelagem logica no brModelo
+criar a tabela cliente
+			
+*/
+
+/*
+-modelagem fisica no mySQL
+criando o banco de dados
+*/
+
+CREATE DATABASE PROJETO2; /*CRIA BANCO DE DADOS*/
+
+USE PROJETO2; /*ABRE O BANCO DE DADOS*/
+
+CREATE TABLE CLIENTE( /*CRIA TABELA DENTRO DO BANCO DE DADOS*/
+	NOME VARCHAR(30),
+	SEXO CHAR(1),
+	CIDADE VARCHAR(30)
+	);
+	
+SHOW TABLES; /*MOSTRA AS TABELAS DO BANDO DE DADOS*/
+
+DESC CLIENTE; /*DESCREVE OS ATRIBUTOS DA TABELA DENTRO DO BANCO DE DADOS*/
+
+/*INSERIR DADOS NA TABELA CLIENTE NO BANCO DE DADOS PROJETO2*/
+	INSERT INTO CLIENTE (NOME, SEXO, CIDADE) VALUES ('LUIZ FERNANDO', 'M', 'PIQUETE');
+	INSERT INTO CLIENTE (NOME, SEXO, CIDADE) VALUES ('MICHELLE', 'F', 'SAO PAULO');
+	INSERT INTO CLIENTE (NOME, SEXO, CIDADE) VALUES ('GUSTAVO', 'M', 'SAO JOSE DOS CAMPOS');
+	INSERT INTO CLIENTE (NOME, SEXO, CIDADE) VALUES ('GABRIELA', 'F', 'GOIANIA');
+	INSERT INTO CLIENTE (NOME, SEXO, CIDADE) VALUES ('JOAO', 'M', 'RIO DE JANEIRO');
+	INSERT INTO CLIENTE (NOME, SEXO, CIDADE) VALUES ('CELIA', 'F', 'RIO DE JANEIRO');
+	INSERT INTO CLIENTE (NOME, SEXO, CIDADE) VALUES ('LILIAN', 'F', 'PATO DE MINAS');
+	INSERT INTO CLIENTE (NOME, SEXO, CIDADE) VALUES ('ANA', 'F', 'SAO PAULO');
+	INSERT INTO CLIENTE (NOME, SEXO, CIDADE) VALUES ('CARLA', 'F', 'BELO HORIZONTE');
