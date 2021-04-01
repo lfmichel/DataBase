@@ -55,6 +55,10 @@ git commit -m "First Commit"
 git log
 git remote add DataBase https://github.com/lfmichel/DataBase.git
 git remote master
+<<<<<<< HEAD
 git push -u database
  master 1
 git checkout 1
+=======
+
+>>>>>>> updateReadMe
